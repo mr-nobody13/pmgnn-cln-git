@@ -276,9 +276,9 @@ def main():
     parser.add_argument("--num_rbf", type=int, default=16)
 
     # حالت basis reduction: SBF=3x4 و RBF=8
-    parser.add_argument("--reduced_num_spherical", type=int, default=4)
+    parser.add_argument("--reduced_num_spherical", type=int, default=5)
     parser.add_argument("--reduced_num_radial", type=int, default=4)
-    parser.add_argument("--reduced_num_rbf", type=int, default=10)
+    parser.add_argument("--reduced_num_rbf", type=int, default=8)
 
     # -----------------------------
     # تنظیمات خروجی و لاگ
