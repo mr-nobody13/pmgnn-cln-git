@@ -69,9 +69,9 @@ class Config(object):
         num_spherical: int = 7,
         num_radial: int = 6,
         num_rbf: int = 16,
-        reduced_num_spherical: int = 3, # it was 3
+        reduced_num_spherical: int = 4, # it was 3
         reduced_num_radial: int = 4,
-        reduced_num_rbf: int = 8, # 8
+        reduced_num_rbf: int = 10, # 8
     ) -> None:
         # نام دیتاست برای سازگاری با ساختار پروژه نگه داشته می‌شود.
         self.dataset = dataset
