@@ -263,9 +263,9 @@ def main():
     # -----------------------------
     # در کد اولیه، QM9-5k به صورت ثابت 4000/500/500 بود.
     # اینجا همان default حفظ شده ولی قابل تغییر با command line شده است.
-    parser.add_argument("--train_size", type=int, default=4000)
-    parser.add_argument("--val_size", type=int, default=500)
-    parser.add_argument("--test_size", type=int, default=500)
+    parser.add_argument("--train_size", type=int, default=1600)
+    parser.add_argument("--val_size", type=int, default=200)
+    parser.add_argument("--test_size", type=int, default=200)
 
     # -----------------------------
     # تنظیمات basis functionها
