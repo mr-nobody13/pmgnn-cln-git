@@ -233,7 +233,7 @@ def main():
     # -----------------------------
     # hyperparameterهای آموزش
     # -----------------------------
-    parser.add_argument("--epochs", type=int, default=300)
+    parser.add_argument("--epochs", type=int, default=100)
     parser.add_argument("--lr", type=float, default=1e-4)
     parser.add_argument("--wd", type=float, default=0.0)
     parser.add_argument("--n_layer", type=int, default=6)
@@ -245,8 +245,8 @@ def main():
     parser.add_argument(
         "--target",
         type=int,
-        default=7,
-        help="CLI target index. Default 7 maps to U0_atom unless --no_atom_mapping is used.",
+        default=6,
+        help="CLI target index. Default 6 maps to ZPVE.",
     )
     parser.add_argument(
         "--no_atom_mapping",
